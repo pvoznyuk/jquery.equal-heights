@@ -1,0 +1,20 @@
+{
+  "name": "jquery-equal-heights",
+  "version": "0.1.0",
+  "authors": [
+    "(Nomensa <tech@nomensa.com>)"
+  ],
+  "description": "Ensures the elements matched are the height of the highest element.",
+  "main": "jquery.equal-heights.js",
+  "keywords": [
+    "accessible",
+    "equal-heights",
+    "HTML5",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/nomensa/jquery.equal-heights",
+  "dependencies": {
+      "jquery": "~1.10.2"
+  }
+}

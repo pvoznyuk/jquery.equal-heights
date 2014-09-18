@@ -1,0 +1,12 @@
+.project
+.idea
+bower_components
+node_modules
+coverage
+
+nbproject
+npm-debug.log
+
+.DS_Store
+.sass-cache
+.tmp*
