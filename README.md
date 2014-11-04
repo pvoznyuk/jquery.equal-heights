@@ -111,6 +111,7 @@ $ grunt
 
 ## Release history
 
+ - 0.1.1 Updated destroy function to remove 'min-height' attribute
  - 0.1.0 Tagged stable version for release
 
 Copyright &copy; 2014 [@nomensa](http://nomensa.com)

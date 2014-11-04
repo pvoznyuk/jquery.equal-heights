@@ -3,7 +3,7 @@
  *
  * @description: Ensures the elements matched are the height of the highest element.
  * @source: http://github.com/nomensa/jquery.equal-heights
- * @version: '0.1.0'
+ * @version: '0.1.1'
  *
  * @author: Nomensa
  * @license: licenced under MIT - http://opensource.org/licenses/mit-license.php
@@ -70,7 +70,7 @@
      return the dom to it's original form
      */
         return $('.' + this.options.target, this.element).each(function () {
-            $(this).css('min-height', 0);
+            $(this).css('min-height', '');
         });
 
     };
