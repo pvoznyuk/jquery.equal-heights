@@ -70,7 +70,7 @@
      return the dom to it's original form
      */
         return $('.' + this.options.target, this.element).each(function () {
-            $(this).css('min-height', 0);
+            $(this).css('min-height', '');
         });
 
     };
