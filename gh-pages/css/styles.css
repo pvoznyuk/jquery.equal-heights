@@ -47,6 +47,8 @@ figure {
 
 img {
     vertical-align: middle;
+    max-width: 100%;
+    height: auto;
 }
 
 hr {
@@ -424,6 +426,7 @@ fieldset[disabled] input[type="checkbox"] {
     color: #fdc329;
 }
 
+
 /*------------------------------------------------------------------------------
    Pretty printing styles. Used with prettify.js
 ------------------------------------------------------------------------------*/
@@ -447,3 +450,11 @@ fieldset[disabled] input[type="checkbox"] {
 .dec,
 .var {color: #606; }  /* a declaration; a variable name */
 .fun {color: red; }   /* a function name */
+
+
+/*------------------------------------------------------------------------------
+    Demo styles
+------------------------------------------------------------------------------*/
+.column-box {
+    padding: 1px 0;
+}
