@@ -113,7 +113,7 @@ describe('equalHeights', function () {
 
         it('should set the target value option to the one that was supplied', function() {
             testElement1.equalheights({
-                target: 'column-inner'
+                target: '.column-inner'
             });
             expect(testElement1.find('div').hasClass('column-inner')).toBe(true);
         });

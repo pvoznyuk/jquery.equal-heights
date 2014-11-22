@@ -22,8 +22,8 @@ Then it's just a case of including the following scripts on your page, best at t
 ### target
 
 Type: `string`
-Default: 'column-inner'
-Description: The class name of the element to apply equal heights
+Default: '.column-inner'
+Description: The target element, class or id to apply equal heights
 
 ### breakpoint
 
