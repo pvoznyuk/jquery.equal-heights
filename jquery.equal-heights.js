@@ -3,7 +3,7 @@
  *
  * @description: Ensures the elements matched are the height of the highest element.
  * @source: http://github.com/nomensa/jquery.equal-heights
- * @version: '0.1.1'
+ * @version: '0.1.2'
  *
  * @author: Nomensa
  * @license: licenced under MIT - http://opensource.org/licenses/mit-license.php
@@ -16,7 +16,7 @@
 
     pluginName = 'equalheights';
     defaults = {
-        target: 'column-inner', // the class name of the element to apply equal heights
+        target: '.column-inner', // the target element to apply equal heights
         breakpoint: '768' // A pixel value of the width of the window where the equal height should be applied
     };
 
@@ -29,7 +29,7 @@
         self.element = $(element);
         // Combine user options with default options
         self.options = $.extend({}, defaults, options);
-        self.target = self.element.find('.' + self.options.target);
+        self.target = self.element.find(self.options.target);
 
         function init() {
             var windowWidth = $(window).width();
@@ -69,7 +69,7 @@
     /*
      return the dom to it's original form
      */
-        return $('.' + this.options.target, this.element).each(function () {
+        return $(this.options.target, this.element).each(function () {
             $(this).css('min-height', '');
         });
 
