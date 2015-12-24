@@ -68,8 +68,9 @@
     /*
      return the dom to it's original form
      */
+    var that = this;
     return $(this.options.target, this.element).each(function () {
-      $(this).css(this.options.property, '');
+      $(this).css(that.options.property, '');
     });
 
   };
